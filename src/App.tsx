@@ -1,11 +1,14 @@
 import { useState } from "react";
+import { Button, ButtonGroup } from "@chakra-ui/react";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <span>Hello World</span>
+      <Button colorScheme="blue" variant="outline">
+        Button
+      </Button>
     </div>
   );
 }
