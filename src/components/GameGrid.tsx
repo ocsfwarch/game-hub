@@ -10,7 +10,6 @@ interface Props {
 }
 
 const GameGrid = ({ gameQuery }: Props) => {
-  console.log(gameQuery);
   const { data, error, isLoading } = useGames(gameQuery);
   const skeletons = [1, 2, 3, 4, 5, 6];
 
